@@ -9,22 +9,18 @@ pygame.init()
 myfont = pygame.font.SysFont("monospace", 75)
 RED = (255,0,0)
 BLUE = (0,0,255)
-GREEN = (0,255,0)
-YELLOW = (255,255,0)
+BLACK =(0,0,0)
 WHITE = (255,255,255)
-ORANGE = (255,140,0)
-CYAN = (0,255,255)
-BLACK = (0,0,0)
-MAROON = (128,0,0)
+
 SPACES = 49
 
-win_size_y = 700
-win_size_x = 940
+win_size_y = 740
+win_size_x = 1300
 
 
 win = pygame.display.set_mode((win_size_x, win_size_y))
 
-pygame.display.set_caption("Tintas")
+pygame.display.set_caption("Universe")
 
 bg = pygame.image.load("images/bg.jpg")
 hex_sprite = pygame.image.load("images/hex.png")
@@ -116,7 +112,157 @@ def redraw_game_window():
     hex47.draw(win, color)
     hex48.draw(win, color)
     hex49.draw(win, color)
-    pawn.draw(win, BLACK)
+    hex50.draw(win, color)
+    hex51.draw(win, color)
+    hex52.draw(win, color)
+    hex53.draw(win, color)
+    hex54.draw(win, color)
+    hex55.draw(win, color)
+    hex56.draw(win, color)
+    hex57.draw(win, color)
+    hex58.draw(win, color)
+    hex59.draw(win, color)
+    hex60.draw(win, color)
+    hex61.draw(win, color)
+    hex62.draw(win, color)
+    hex63.draw(win, color)
+    hex64.draw(win, color)
+    hex65.draw(win, color)
+    hex66.draw(win, color)
+    hex67.draw(win, color)
+    hex68.draw(win, color)
+    hex69.draw(win, color)
+    hex70.draw(win, color)
+    hex71.draw(win, color)
+    hex72.draw(win, color)
+    hex73.draw(win, color)
+    hex74.draw(win, color)
+    hex75.draw(win, color)
+    hex76.draw(win, color)
+    hex77.draw(win, color)
+    hex78.draw(win, color)
+    hex79.draw(win, color)
+    hex80.draw(win, color)
+    hex81.draw(win, color)
+    hex82.draw(win, color)
+    hex83.draw(win, color)
+    hex84.draw(win, color)
+    hex85.draw(win, color)
+    hex86.draw(win, color)
+    hex87.draw(win, color)
+    hex87.draw(win, color)
+    hex88.draw(win, color)
+    hex89.draw(win, color)
+    hex90.draw(win, color)
+    hex91.draw(win, color)
+    hex92.draw(win, color)
+    hex93.draw(win, color)
+    hex94.draw(win, color)
+    hex95.draw(win, color)
+    hex96.draw(win, color)
+    hex97.draw(win, color)
+    hex98.draw(win, color)
+    hex99.draw(win, color)
+    hex100.draw(win, color)
+    hex101.draw(win, color)
+    hex102.draw(win, color)
+    hex103.draw(win, color)
+    hex104.draw(win, color)
+    hex105.draw(win, color)
+    hex106.draw(win, color)
+    hex107.draw(win, color)
+    hex108.draw(win, color)
+    hex109.draw(win, color)
+    hex110.draw(win, color)
+    hex111.draw(win, color)
+    hex112.draw(win, color)
+    hex113.draw(win, color)
+    hex114.draw(win, color)
+    hex115.draw(win, color)
+    hex116.draw(win, color)
+    hex117.draw(win, color)
+    hex118.draw(win, color)
+    hex119.draw(win, color)
+    hex120.draw(win, color)
+    hex121.draw(win, color)
+    hex122.draw(win, color)
+    hex123.draw(win, color)
+    hex124.draw(win, color)
+    hex125.draw(win, color)
+    hex126.draw(win, color)
+    hex127.draw(win, color)
+    hex128.draw(win, color)
+    hex129.draw(win, color)
+    hex130.draw(win, color)
+    hex131.draw(win, color)
+    hex132.draw(win, color)
+    hex133.draw(win, color)
+    hex134.draw(win, color)
+    hex135.draw(win, color)
+    hex136.draw(win, color)
+    hex137.draw(win, color)
+    hex138.draw(win, color)
+    hex139.draw(win, color)
+    hex140.draw(win, color)
+    hex141.draw(win, color)
+    hex142.draw(win, color)
+    hex143.draw(win, color)
+    hex144.draw(win, color)
+    hex145.draw(win, color)
+    hex146.draw(win, color)
+    hex147.draw(win, color)
+    hex148.draw(win, color)
+    hex149.draw(win, color)
+    hex150.draw(win, color)
+    hex151.draw(win, color)
+    hex152.draw(win, color)
+    hex153.draw(win, color)
+    hex154.draw(win, color)
+    hex155.draw(win, color)
+    hex156.draw(win, color)
+    hex157.draw(win, color)
+    hex158.draw(win, color)
+    hex159.draw(win, color)
+    hex160.draw(win, color)
+    hex161.draw(win, color)
+    hex162.draw(win, color)
+    hex163.draw(win, color)
+    hex164.draw(win, color)
+    hex165.draw(win, color)
+    hex166.draw(win, color)
+    hex167.draw(win, color)
+    hex168.draw(win, color)
+    hex169.draw(win, color)
+    hex170.draw(win, color)
+    hex171.draw(win, color)
+    hex172.draw(win, color)
+    hex173.draw(win, color)
+    hex174.draw(win, color)
+    hex175.draw(win, color)
+    hex176.draw(win, color)
+    hex177.draw(win, color)
+    hex178.draw(win, color)
+    hex179.draw(win, color)
+    hex180.draw(win, color)
+    hex181.draw(win, color)
+    hex182.draw(win, color)
+    hex183.draw(win, color)
+    hex184.draw(win, color)
+    hex185.draw(win, color)
+    hex186.draw(win, color)
+    hex187.draw(win, color)
+    hex188.draw(win, color)
+    hex189.draw(win, color)
+    hex190.draw(win, color)
+    hex191.draw(win, color)
+    hex192.draw(win, color)
+    hex193.draw(win, color)
+    hex194.draw(win, color)
+    hex195.draw(win, color)
+    hex196.draw(win, color)
+    hex197.draw(win, color)
+    hex198.draw(win, color)
+    hex199.draw(win, color)
     
 
     pygame.display.update()
@@ -126,73 +272,254 @@ def redraw_game_window():
 
 
 #mainloop
-hex01 = hexagon(0, 0, 0, 0 ,50, 50, color, hex_sprite, False, 0, False)
-hex02 = hexagon(0, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex03 = hexagon(0, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex04 = hexagon(0, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex05 = hexagon(0, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex06 = hexagon(0, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex07 = hexagon(1, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex08 = hexagon(1, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex09 = hexagon(1, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex10 = hexagon(1, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex11 = hexagon(1, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex12 = hexagon(1, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex13 = hexagon(2, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex14 = hexagon(2, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex15 = hexagon(2, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex16 = hexagon(2, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex17 = hexagon(2, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex18 = hexagon(2, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex19 = hexagon(3, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex20 = hexagon(3, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex21 = hexagon(3, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex22 = hexagon(3, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex23 = hexagon(3, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex24 = hexagon(3, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex25 = hexagon(4, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex26 = hexagon(4, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex27 = hexagon(4, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex28 = hexagon(4, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex29 = hexagon(4, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex30 = hexagon(4, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex31 = hexagon(5, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex32 = hexagon(5, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex33 = hexagon(5, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex34 = hexagon(5, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex35 = hexagon(5, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex36 = hexagon(5, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex37 = hexagon(6, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex38 = hexagon(6, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex39 = hexagon(6, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex40 = hexagon(6, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex41 = hexagon(6, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex42 = hexagon(6, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex43 = hexagon(7, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex44 = hexagon(7, 1, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex45 = hexagon(7, 2, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex46 = hexagon(7, 3, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex47 = hexagon(7, 4, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex48 = hexagon(7, 5, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-hex49 = hexagon(8, 0, 0, 0, 50, 50, color, hex_sprite, False, 0, False)
-pawn =  hexagon(1, 1, 0, 0, 0, 0, BLACK, win , False, 0, False)
+hex01 = hexagon(0, 0, 0, 0 ,10, 10, color, hex_sprite, False, 0, False)
+hex02 = hexagon(0, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex03 = hexagon(0, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex04 = hexagon(0, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex05 = hexagon(0, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex06 = hexagon(1, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex07 = hexagon(1, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex08 = hexagon(1, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex09 = hexagon(1, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex10 = hexagon(1, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex11 = hexagon(1, 5, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex12 = hexagon(1, 6, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex13 = hexagon(1, 7, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex14 = hexagon(1, 8, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex15 = hexagon(1, 9, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex16 = hexagon(2, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex17 = hexagon(2, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex18 = hexagon(2, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex19 = hexagon(2, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex20 = hexagon(2, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex21 = hexagon(2, 5, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex22 = hexagon(2, 6, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex23 = hexagon(2, 7, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex24 = hexagon(2, 8, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex25 = hexagon(2, 9, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex26 = hexagon(3, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex27 = hexagon(3, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex28 = hexagon(3, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex29 = hexagon(3, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex30 = hexagon(3, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex31 = hexagon(3, 5, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex32 = hexagon(3, 6, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex33 = hexagon(3, 7, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex34 = hexagon(3, 8, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex35 = hexagon(3, 9, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex36 = hexagon(3, 10, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex37 = hexagon(3, 11, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex38 = hexagon(3, 12, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex39 = hexagon(3, 13, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex40 = hexagon(4, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex41 = hexagon(4, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex42 = hexagon(4, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex43 = hexagon(4, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex44 = hexagon(4, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex45 = hexagon(4, 5, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex46 = hexagon(4, 6, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex47 = hexagon(4, 7, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex48 = hexagon(4, 8, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex49 = hexagon(4, 9, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex50 = hexagon(4, 10, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex51 = hexagon(4, 11, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex52 = hexagon(4, 12, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex53 = hexagon(4, 13, 0, 0,150,150, color, hex_sprite, False, 0, False)
+hex54 = hexagon(5, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex55 = hexagon(5, 1, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex56 = hexagon(5, 2, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex57 = hexagon(5, 3, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex58 = hexagon(5, 4, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex59 = hexagon(5, 5, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex60 = hexagon(5, 6, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex61 = hexagon(5, 7, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex62 = hexagon(5, 8, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex63 = hexagon(5, 9, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex64 = hexagon(5, 10, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex65 = hexagon(5, 11, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex66 = hexagon(5, 12, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex67 = hexagon(5, 13, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex68 = hexagon(5, 14, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex69 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex70 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex71 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex72 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex73 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex74 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex75 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex76 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex77 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex78 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex79 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex80 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex81 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex82 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex83 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex84 = hexagon(6, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex85 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex86 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex87 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex87 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex88 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex89 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex90 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex91 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex92 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex93 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex94 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex95 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex96 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex97 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex98 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex99 = hexagon(7, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex100 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex101 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex102 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex103 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex104 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex105 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex106 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex107 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex108 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex109 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex110 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex111 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex112 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex113 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex114 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex115 = hexagon(8, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex116 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex117 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex118 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex119 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex120 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex121 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex122 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex123 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex124 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex125 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex126 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex127 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex128 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex129 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex130 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex131 = hexagon(9, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex132 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex133 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex134 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex135 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex136 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex137 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex138 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex139 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex140 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex141 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex142 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex143 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex144 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex145 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex146 = hexagon(10, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex147 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex148 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex149 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex150 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex151 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex152 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex153 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex154 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex155 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex156 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex157 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex158 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex159 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex160 = hexagon(11, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex161 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex162 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex163 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex164 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex165 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex166 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex167 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex168 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex169 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex170 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex171 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex172 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex173 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex174 = hexagon(12, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex175 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex176 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex177 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex178 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex179 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex180 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex181 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex182 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex183 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex184 = hexagon(13, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex185 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex186 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex187 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex188 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex189 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex190 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex191 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex192 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex193 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex194 = hexagon(14, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex195 = hexagon(15, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex196 = hexagon(15, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex197 = hexagon(15, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex198 = hexagon(15, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
+hex199 = hexagon(15, 0, 0, 0, 10, 10, color, hex_sprite, False, 0, False)
 
 
-hex_list = [hex01, hex02, hex03, hex04, hex05, hex06, hex07, hex08, hex09, 
+
+
+
+hex_list = [hex01, hex02, hex03, hex04, hex05, hex06, hex07, hex08, hex09,
             hex10, hex11, hex12, hex13, hex14, hex15, hex16, hex17, hex18, hex19,
             hex20, hex21, hex22, hex23, hex24, hex25, hex26, hex27, hex28, hex29, 
             hex30, hex31, hex32, hex33, hex34, hex35, hex36, hex37, hex38, hex39,
-            hex40, hex41, hex42, hex43, hex44, hex45, hex46, hex47, hex48, hex49, pawn]
+            hex40, hex41, hex42, hex43, hex44, hex45, hex46, hex47, hex48, hex49,
+            hex50, hex51, hex52, hex53, hex54, hex55, hex56, hex57, hex58, hex59,
+            hex60, hex61, hex62, hex63, hex64, hex65, hex66, hex67, hex68, hex69,
+            hex70, hex71, hex72, hex73, hex74, hex75, hex76, hex77, hex78, hex79,
+            hex80, hex81, hex82, hex83, hex84, hex85, hex86, hex87, hex87, hex88,
+            hex89, hex90, hex91, hex92, hex93, hex94, hex95, hex96, hex97, hex98,
+            hex99, hex100, hex101, hex102, hex103, hex104, hex105, hex106, hex107,
+            hex108, hex109, hex110, hex111, hex112, hex113, hex114, hex115, hex116,
+            hex117, hex118, hex119, hex120, hex121, hex122, hex123, hex124, hex125,
+            hex126, hex127, hex128, hex129, hex130, hex131, hex132, hex133, hex134,
+            hex135, hex136, hex137, hex138, hex139, hex140, hex141, hex142, hex143,
+            hex144, hex145, hex146, hex147, hex148, hex149, hex150, hex151, hex152,
+            hex153, hex154, hex155, hex156, hex157, hex158, hex159, hex160, hex161,
+            hex162, hex163, hex164, hex165, hex166, hex167, hex168, hex169, hex170,
+            hex171, hex172, hex173, hex174, hex175, hex176, hex177, hex178, hex179,
+            hex180, hex181, hex182, hex183, hex184, hex185, hex186, hex187, hex188,
+            hex189, hex190, hex191, hex192, hex193, hex194, hex195, hex196, hex197,
+            hex198, hex199 ]
 
-color_list = [RED, RED, RED, RED, RED, RED, RED, 
-BLUE, BLUE, BLUE, BLUE, BLUE, BLUE, BLUE,
-GREEN, GREEN, GREEN, GREEN, GREEN, GREEN, GREEN,
-YELLOW, YELLOW, YELLOW, YELLOW, YELLOW, YELLOW, YELLOW,
-CYAN, CYAN, CYAN, CYAN, CYAN, CYAN, CYAN, 
-ORANGE, ORANGE, ORANGE, ORANGE, ORANGE, ORANGE, ORANGE, 
-WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE]
+color_list = [WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE, WHITE,
+              WHITE, WHITE ]
 
-random.shuffle(color_list)
 
 hex_column = 0
 hex_row = 0
@@ -220,11 +547,7 @@ for i in range(49):
     
 
 def is_play_valid(col,row):
-    for i in range(SPACES):
-        if hex_list[i].isPlayed == False:
-            continue
-        if hex_list[i].isPlayed == True:
-            pass
+    pass
 
 def play(col, row, posx, posy):
 
@@ -237,391 +560,16 @@ def play(col, row, posx, posy):
 
 
 def check_win(result):
-    Red_P1 = 0
-    BLUE_P1 = 0
-    WHITE_P1 = 0
-    GREEN_P1 = 0
-    YELLOW_P1 = 0
-    ORANGE_P1 = 0
-    CYAN_P1 = 0
+    pass
 
-    Red_P2 = 0
-    BLUE_P2 = 0
-    WHITE_P2 = 0
-    GREEN_P2 = 0
-    YELLOW_P2 = 0
-    ORANGE_P2 = 0
-    CYAN_P2 = 0
-    p=0
-
-    for i in range(SPACES):
-        
-        #check p1 wins
-        if hex_list[i].player == 1 and hex_list[i].color == RED:
-            Red_P1 += 1
-        
-        if hex_list[i].player == 1 and hex_list[i].color == BLUE:
-            BLUE_P1 += 1
-        
-        if hex_list[i].player == 1 and hex_list[i].color == WHITE:
-            WHITE_P1 += 1
-
-        if hex_list[i].player == 1 and hex_list[i].color == GREEN:
-            GREEN_P1 += 1
-        
-        if hex_list[i].player == 1 and hex_list[i].color == CYAN:
-            CYAN_P1 += 1
-        
-        if hex_list[i].player == 1 and hex_list[i].color == ORANGE:
-            ORANGE_P1 += 1
-
-        if hex_list[i].player == 1 and hex_list[i].color == YELLOW:
-            YELLOW_P1 += 1
-
-        #Player2
-        if hex_list[i].player == 2 and hex_list[i].color == RED:
-            Red_P2 += 1
-        
-        if hex_list[i].player == 2 and hex_list[i].color == BLUE:
-            BLUE_P2 += 1
-        
-        if hex_list[i].player == 2 and hex_list[i].color == WHITE:
-            WHITE_P2 += 1
-
-        if hex_list[i].player == 2 and hex_list[i].color == GREEN:
-            GREEN_P2 += 1
-        
-        if hex_list[i].player == 2 and hex_list[i].color == CYAN:
-            CYAN_P2 += 1
-        
-        if hex_list[i].player == 2 and hex_list[i].color == ORANGE:
-            ORANGE_P2 += 1
-
-        if hex_list[i].player == 2 and hex_list[i].color == YELLOW:
-            YELLOW_P2 += 1
-
-        if  Red_P1 == 7:
-            return(True)
-            print("Player 1 win!!")
-
-        if  BLUE_P1 == 7:
-            p=1
-            return(p)
-            print("Player 1 win!!")
-
-        if  WHITE_P1 == 7:
-            p=1
-            return(p)
-            print("Player 1 win!!")
-        
-        if  YELLOW_P1 == 7:
-            p=1
-            return(p)
-            print("Player 1 win!!")
-
-        if  ORANGE_P1 == 7:
-            p=1
-            return(p)
-            print("Player 1 win!!")
-
-        if  CYAN_P1 == 7:
-            p=1
-            return(p)
-            print("Player 1 win!!")
-
-
-        if  Red_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-
-        if  BLUE_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-
-        if  WHITE_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-        
-        if  YELLOW_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-
-        if  ORANGE_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-
-        if  CYAN_P2 == 7:
-            p=2
-            return(p)
-            print("Player 2 win!!")
-
-        print(WHITE_P2)
-
-
-
-    
 def check_pieces(i):
-    global turn
-    if turn == 0:
-        if i % 2 == 0 and i<25 :
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (860, ((i+1)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (860, ((i-1)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (860, ((i+6)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (860, ((i+7)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (860, ((i-6)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (860, ((i-5)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 2
-                hex_list[i].isPlayed = True
+    pass
 
-        if i % 2 == 1 and i<25:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (860, ((i+1)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (860, ((i-1)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (860, ((i-6)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-7].color:
-                hex_list[i-7].hitbox = (860, ((i-7)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-7].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (860, ((i+6)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+5].color:
-                hex_list[i+5].hitbox = (860, ((i+5)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+5].player = 2
-                hex_list[i].isPlayed = True
-
-        if i % 2 == 0 and i>25 and i<43:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (890, ((i-24)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (890, ((i-26)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (890, ((i-19)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (890, ((i-18)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (890, ((i-31)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (890, ((i-30)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 2
-                hex_list[i].isPlayed = True
-
-        if i % 2 == 1 and i>25 and i<43:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (890, ((i-24)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (890, ((i-26)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (890, ((i-19)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (890, ((i-18)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (890, ((i-31)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 2
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (890, ((i-30)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 2
-                hex_list[i].isPlayed = True
-        if i==48:
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (890, ((i-6)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 2
-                hex_list[i].isPlayed = True
-
-    if turn == 1:
-        if i % 2 == 0 and i<25:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (740, ((i+1)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (740, ((i-1)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (740, ((i+6)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (740, ((i+7)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (740, ((i-6)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (740, ((i-5)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 1
-                hex_list[i].isPlayed = True
-            
-        if i % 2 == 0 and i>25 and i<43:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (770, ((i-24)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (770, ((i-26)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (770, ((i-19)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (770, ((i-18)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (770, ((i-31)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (770, ((i-30)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 1
-                hex_list[i].isPlayed = True
-
-
-        if i % 2 == 1 and i>25 and i<43:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (770, ((i-24)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (770, ((i-26)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (770, ((i-19)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+7].color:
-                hex_list[i+7].hitbox = (770, ((i-18)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i+7].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (770, ((i-31)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-5].color:
-                hex_list[i-5].hitbox = (770, ((i-30)* 25) +10 , box_size/3, box_size/3)
-                hex_list[i-5].player = 1
-                hex_list[i].isPlayed = True
-
-
-        if i % 2 == 1 and i<25:
-            if hex_list[i].color == hex_list[i+1].color:
-                hex_list[i+1].hitbox = (740, ((i+1)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-1].color:
-                hex_list[i-1].hitbox = (740, ((i-1)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-1].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (740, ((i-6)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i-7].color:
-                hex_list[i-7].hitbox = (740, ((i-7)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-7].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+6].color:
-                hex_list[i+6].hitbox = (740, ((i+6)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+6].player = 1
-                hex_list[i].isPlayed = True
-            if hex_list[i].color == hex_list[i+5].color:
-                hex_list[i+5].hitbox = (740, ((i+5)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i+5].player = 1
-                hex_list[i].isPlayed = True
-        if i == 48:
-            if hex_list[i].color == hex_list[i-6].color:
-                hex_list[i-6].hitbox = (740, ((i-6)* 25) +8 , box_size/3, box_size/3)
-                hex_list[i-6].player = 1
-                hex_list[i].isPlayed = True
 
 
 
 def move():
-    
-    global turn
-    turn += 1
-    turn = turn % 2
-    for i in range(SPACES):
-        if hex_list[i].isSelected and turn == 0 and not hex_list[i].isPlayed:
-            if i < 25:    
-                hex_list[i].hitbox = (860 , (i* 25) + 10 , box_size/3, box_size/3)
-                hex_list[i].player = 2 
-                check_pieces(i)        
-            else:
-                hex_list[i].hitbox = (890 , ((i-25)*25) + 10 , box_size/3, box_size/3)
-                hex_list[i].player = 2 
-                check_pieces(i)
-            hex_list[i].isSelected = False
-            hex_list[i].isPlayed = True
-
-        elif hex_list[i].isSelected and turn == 1 and not hex_list[i].isPlayed:
-            if i < 25:    
-                hex_list[i].hitbox = (740 , (i* 25) + 10 , box_size/3, box_size/3)
-                hex_list[i].player = 1
-                check_pieces(i)  
-            else:
-                hex_list[i].hitbox = (770 , ((i-25)*25) + 10 , box_size/3, box_size/3)
-                hex_list[i].player = 1
-                check_pieces(i)
-            hex_list[i].isSelected = False
-            hex_list[i].isPlayed = True
-    
-    
+    pass
 
 
     
